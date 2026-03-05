@@ -1,0 +1,21 @@
+ID;Name;Description;Price;Quantity;UnitOfMeasure;header_ID;header_Email
+ITM-001;Laptop Pro;High performance laptop;1500.00;1;EA;ORD-001;juan.perez@logali.com
+ITM-002;Mouse;Wireless mouse;25.00;2;EA;ORD-001;juan.perez@logali.com
+ITM-003;Monitor 24;Full HD Monitor;200.00;1;EA;ORD-002;maria.garcia@logali.com
+ITM-004;Cables HDMI;High speed cable;15.00;3;EA;ORD-002;maria.garcia@logali.com
+ITM-005;Keyboard;Mechanical Keyboard;80.00;1;EA;ORD-003;pedro.soto@logali.com
+ITM-006;Headset;Noise cancelling;120.00;1;EA;ORD-003;pedro.soto@logali.com
+ITM-007;Webcam;4K Ultra HD;95.00;1;EA;ORD-004;ana.luz@logali.com
+ITM-008;USB Hub;7 ports powered;35.00;2;EA;ORD-004;ana.luz@logali.com
+ITM-009;Printer;Laser Jet Pro;300.00;1;EA;ORD-005;carlos.mora@logali.com
+ITM-010;Toner;Black ink cartridge;60.00;2;EA;ORD-005;carlos.mora@logali.com
+ITM-011;Desk Lamp;LED with dimming;45.00;1;EA;ORD-006;elena.vaz@logali.com
+ITM-012;Notebook;A5 leather bound;12.00;5;EA;ORD-006;elena.vaz@logali.com
+ITM-013;Smartphone;Latest model 5G;900.00;1;EA;ORD-007;luis.fer@logali.com
+ITM-014;Case;Silicone protective;20.00;1;EA;ORD-007;luis.fer@logali.com
+ITM-015;Tablet;10 inch display;450.00;1;EA;ORD-008;sofia.r@logali.com
+ITM-016;Stylus;Precision pen;55.00;1;EA;ORD-008;sofia.r@logali.com
+ITM-017;SSD 1TB;External drive;110.00;1;EA;ORD-009;jorge.b@logali.com
+ITM-018;RAM 16GB;DDR4 Module;75.00;2;EA;ORD-009;jorge.b@logali.com
+ITM-019;Backpack;Tech travel bag;85.00;1;EA;ORD-010;lucia.m@logali.com
+ITM-020;Bottle;Insulated water bottle;22.00;1;EA;ORD-010;lucia.m@logali.com
