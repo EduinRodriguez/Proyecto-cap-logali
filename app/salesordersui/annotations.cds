@@ -6,16 +6,13 @@ annotate service.SalesOrders with @(
         TypeNamePlural : 'Sales Orders',
         Title          : { Value : ID },
         Description    : { Value : Email },
-        // Aquí es donde la imagen se vuelve dinámica para la cabecera
         ImageUrl       : ImageURL 
     },
-    // Habilita botones de Alta y Eliminación (Requerimiento 2.1 y 2.3)
     UI.Capabilities : {
         Insertable : true,
         Deletable  : true,
         Updatable  : true
     },
-    // Configuración de la tabla principal (Reporte - Requerimiento 2.4)
     UI.LineItem : [
         { Value : ID, Label : 'Order ID' },
         { Value : Email, Label : 'Email' },
@@ -24,7 +21,6 @@ annotate service.SalesOrders with @(
         { Value : Country, Label : 'Country' },
         { Value : OrderStatus, Label : 'Status', Criticality : OrderStatus }
     ],
-    // Definición de las secciones del detalle (Requerimiento 3)
     UI.Facets : [
         {
             $Type : 'UI.ReferenceFacet',
@@ -46,17 +42,13 @@ annotate service.SalesOrders with @(
     }
 );
 
-// Define las columnas para la tabla de Items (Sin esto no verás datos abajo)
 annotate service.OrderItems with @(
-    // 1. Cabecera del objeto (Título y Subtítulo)
     UI.HeaderInfo : {
         TypeName       : 'Producto',
         TypeNamePlural : 'Productos',
         Title          : { Value : Name },
         Description    : { Value : Description }        
     },
-
-    // 2. Organización en secciones (Facets)
     UI.Facets : [
         {
             $Type : 'UI.ReferenceFacet',
@@ -70,7 +62,6 @@ annotate service.OrderItems with @(
         }
     ],
 
-    // 3. Grupo de campos: Datos Generales (Columna 1)
     UI.FieldGroup #GeneralData : {
         Data : [
             { Value : ReleaseDate },
@@ -81,7 +72,6 @@ annotate service.OrderItems with @(
         ]
     },
 
-    // 4. Grupo de campos: Dimensiones (Columna 2)
     UI.FieldGroup #Dimensions : {
         Data : [
             { Value : Height },
